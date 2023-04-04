@@ -1,5 +1,4 @@
 # Album Management App - React
-## Getting Started with Create React App
 Live Link: https://harmonious-concha-88517b.netlify.app/
 
 This project was built as a part of Coding Ninjas' full stack bootcamp.
@@ -11,6 +10,7 @@ This project was built as a part of Coding Ninjas' full stack bootcamp.
 - Update an album's userid and/or title
 - Delete an album
 
+## Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
