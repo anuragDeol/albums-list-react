@@ -45,7 +45,7 @@ export default function Album(props) {
             const response = await fetch(`https://jsonplaceholder.typicode.com/albums/${props.id}`, {
                 method: 'DELETE',
             })
-            const data = await response.json()
+            // const data = await response.json()
         }
         props.deleteAlbum(props.data.id)
     }
