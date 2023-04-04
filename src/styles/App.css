@@ -1,0 +1,128 @@
+/* main container that contains all albums */
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header section */
+header {
+  background-color: rgb(225, 212, 130);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+#heading {
+  font-size: 5.5rem;
+  font-weight: bold;
+  font-family: Franklin Gothic;
+  color: rgb(149, 134, 37);
+}
+
+/* form:: to create new album */
+form {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 241, 216);
+  width: 300px;
+  height: 120px;
+}
+
+input {
+    margin-bottom: 15px;
+    height: 30px;
+    text-indent: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: block;
+}
+
+form > button {
+  border: none;
+  background-color: rgb(225, 212, 130);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(90, 90, 90);
+}
+
+form > button:hover {
+  cursor: pointer;
+  background-color: rgb(224, 195, 7);
+  color: white;
+}
+
+/* albums-container */
+#albums-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.album {
+  font-size: 1.1rem;
+  height: 250px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(193, 176, 231);
+  color: rgb(94, 94, 94)
+}
+
+/* update album form */
+.album form {
+  width: auto;
+  background-color: rgb(193, 176, 231);
+}
+
+#button-container {
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+#button-container button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(157, 142, 192);
+  color: white;
+}
+
+#button-container button:hover {
+  cursor: pointer;
+}
+
+/* update button */
+#btn-update:hover {
+  background-color: rgb(79, 114, 179);
+}
+
+/* delete button */
+#btn-delete:hover {
+  background-color: rgb(237, 84, 84);
+}
+
+/* confirm-update button */
+#btn-confirm-changes:hover {
+  background-color: rgb(87, 157, 87);
+}
