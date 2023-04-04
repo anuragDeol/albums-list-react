@@ -1,5 +1,15 @@
 # Album Management App - React
 ## Getting Started with Create React App
+Live Link: https://harmonious-concha-88517b.netlify.app/
+
+This project was built as a part of Coding Ninjas' full stack bootcamp.
+
+## Features
+- A react app that manages albums
+- Fetches and show albums from the API - https://jsonplaceholder.typicode.com/albums
+- Add new album by ```UserId``` and ```Title```
+- Update an album's userid and/or title
+- Delete an album
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
